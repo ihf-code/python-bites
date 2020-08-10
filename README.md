@@ -1,2 +1,2 @@
 # python-bites
-Python Bites
+A collection of Python lessons / demos / examples.
