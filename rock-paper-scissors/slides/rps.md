@@ -459,5 +459,9 @@ else:
 ```
 
 ---
+# Feedback
 
+![inline](feedback.png)
+
+---
 # Thanks :)
