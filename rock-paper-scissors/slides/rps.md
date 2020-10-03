@@ -62,6 +62,10 @@ print("Welcome to Rock, Paper, Scissors")
 
 ---
 
+# Question 1 
+
+---
+
 # Variables
 
 ---
@@ -151,6 +155,10 @@ print("Welcome to Rock, Paper, Scissors")
 user_choice = input("What is your move? (rock, paper, scissors) ")
 print("You picked " + user_choice)
 ```
+
+---
+
+# Question 2 & 3 
 
 ---
 
@@ -280,6 +288,10 @@ else:
 
 ---
 
+# Question 4 & 5  
+
+---
+
 # Random Module
 
 ---
@@ -329,6 +341,10 @@ elif user_choice == "paper":
 else:
     print("You picked scissors")
 ```
+
+---
+
+# Question 6 & 7  
 
 ---
 
@@ -395,6 +411,10 @@ else:
     else:
         print("It's a draw")
 ```
+---
+
+# Question 8 
+
 ---
 
 # Thanks :)
