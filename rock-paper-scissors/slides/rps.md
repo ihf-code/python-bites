@@ -1,7 +1,6 @@
 # [fit] KPMG: Code
 ## Intro to Coding
 #### Rock, Paper, Scissors with Python
-### Live at 3:30pm (HKT)
 
 ---
 
@@ -32,11 +31,6 @@
 ![inline](rps.png)
 
 [^1]: http://thescienceexplorer.com/universe/how-win-rock-paper-scissors-according-math
-
----
-
-## Ask questions @
-### sli.do #kpmgcode
 
 ---
 
@@ -75,61 +69,10 @@ print("Welcome to Rock, Paper, Scissors")
 # Variables
 
 ```python
-name = "Charlie"
-age = 27
-left_to_pay = 29.99
-has_paid = False
-```
-
----
-
-# Data Types
-
----
-
-# Strings
-
-Characters surrounded by quotes
-
-```python
-name = "Alice"
-address = "123 Station Road"
-favourite_food = "Pizza"
-```
-
----
-
-# Integer
-
-A whole number
-
-```python
-age = 17
-days_in_january = 31
-bottles_sitting_on_the_wall = 99
-```
-
-----
-
-# Float
-
-A decimal number
-
-```python
-price = 12.99
-percent = 34.57
-pi = 3.1415
-```
-
----
-
-# Boolean
-
-True or False
-
-```python
-has_paid = True
-vip = False
+name = "Charlie" # String
+age = 27 # Integer
+left_to_pay = 29.99 # Float
+has_paid = False # Boolean
 ```
 
 ---
@@ -167,12 +110,12 @@ print(49 / 7)
 # Concatenation
 
 ```python
-first_name = "David"
-last_name = "Beckham"
+first_name = "Bill"
+last_name = "Michael"
 full_name = first_name + " " + last_name
 
-print("Hello " + first_name)
-print("Good morning, " + full_name)
+print("G'day " + first_name)
+print("How ya goin', " + full_name)
 ```
 
 ---
@@ -238,10 +181,10 @@ if 3 == 5:
 # Indenting
 
 ```python
-name = "Alice"
+name = "Lisa"
 
-if name == "Alice":
-    print("Hello Alice")
+if name == "Lisa":
+    print("Hello Lisa")
 ```
 
 ---
@@ -250,8 +193,8 @@ if name == "Alice":
 
 | Comparator |  Description | Example |
 |--- | --- | --- |
-| == | Equals | "Alice" == "Alice"
-| != | Does not equal | "Bob" != "Charlie"
+| == | Equals | "Lisa" == "Lisa"
+| != | Does not equal | "Bill" != "Catherine"
 | < | Less than | 4 < 10
 | > | Greater than | 12 > 8
 | <= | Less than or equal to | 7 <= 7
@@ -277,12 +220,12 @@ else:
 # Else
 
 ```python
-name = "Alice"
+age = 18
 
-if name == "Alice":
-    print("Hello Alice")
+if age >= 18:
+    print("You can vote.")
 else:
-    print("You're not Alice")
+    print("You cannot vote.")
 ```
 
 ---
@@ -294,14 +237,14 @@ else:
 # Elif
 
 ```python
-name = input("What is your name? ")
+user_choice = input("What is your move? (rock, paper, scissors) ")
 
-if name == "Alice":
-    print("Hello Alice")
-elif name == "Bob":
-    print("Hello Bob")
+if user_choice == "paper":
+    print("You picked paper")
+elif user_choice == "scissors":
+    print("You picked scissors")
 else:
-    print("You must be Charlie")
+    print("You picked rock")
 ```
 
 ---
@@ -350,7 +293,7 @@ import random
 number = random.randint(1, 10)
 print(number) # 7
 
-print(random.choice(["Alice", "Bob", "Charlie", "David", "Eve"]))
+print(random.choice(["Alia", "Bill", "Catherine", "Dharmesh", "Eve"]))
 ```
 
 ---
@@ -415,11 +358,6 @@ if user_choice == "rock":
 
 ---
 
-## Ask questions @
-### sli.do #kpmgcode
-
----
-
 # Putting it all together
 
 ---
@@ -457,11 +395,6 @@ else:
     else:
         print("It's a draw")
 ```
-
 ---
-# Feedback
 
-![inline](feedback.png)
-
----
 # Thanks :)
