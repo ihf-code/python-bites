@@ -220,7 +220,7 @@ else:
 # Else
 
 ```python
-age = 18
+age = 16
 
 if age >= 18:
     print("You can vote.")
