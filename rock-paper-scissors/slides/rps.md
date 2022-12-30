@@ -4,10 +4,6 @@
 
 ---
 
-# [fit] Overview
-
----
-
 # [fit] What is programming?
 
 ---
@@ -24,13 +20,11 @@
 
 ---
 
-# Rock, Paper, Scissors
+# Text Editor
 
 ---
 
-![inline](rps.png)
-
-[^1]: http://thescienceexplorer.com/universe/how-win-rock-paper-scissors-according-math
+# [fit] trinket.io
 
 ---
 
@@ -46,15 +40,11 @@ print("Hello, World!")
 
 ---
 
-# Text Editor
+# Link 1 - Hello World
 
 ---
 
-# [fit] repl.it
-
----
-
-# Code with Us: 1
+# Putting it all together 1 
 
 ```python
 print("Welcome to Rock, Paper, Scissors")
@@ -62,7 +52,7 @@ print("Welcome to Rock, Paper, Scissors")
 
 ---
 
-# Question 1 
+# Link 1 - Rock, Paper, Scissors Intro
 
 ---
 
@@ -73,10 +63,114 @@ print("Welcome to Rock, Paper, Scissors")
 # Variables
 
 ```python
-name = "Charlie" # String
-age = 27 # Integer
-left_to_pay = 29.99 # Float
-has_paid = False # Boolean
+<variable_name> = <value>
+```
+
+---
+
+# Variables
+
+```python
+name = "Charlie"
+age = 27
+left_to_pay = 29.99
+has_paid = False
+```
+
+---
+
+# Variables
+
+- Any mix of letters, numbers and some special characters
+- Must start with a letter
+- Keep lowercase
+- Use underscore where there are spaces
+
+---
+
+# Writing Python
+
+- You are not writing an essay...
+- Keep things lowercase
+- Don't use punctuation
+- Replace spaces with underscores
+
+---
+
+# Data Types
+
+---
+
+# Strings
+
+---
+
+# Strings
+
+Characters surrounded by quotes
+
+```python
+name = "Safia"
+address = "123 Station Road"
+favourite_food = "Pizza"
+```
+
+---
+
+# Escaping
+
+---
+
+# Escaping
+
+```
+\n = New line
+\t = Tab
+\" = Double Quote
+```
+
+---
+# Escaping
+
+```python
+favourite_food = "Pizza from \"Dough N' Sauce\""
+shopping_list = "Apples\nBread\nMilk\nEggs"
+```
+
+---
+
+# Link 2 - Escaping
+
+---
+
+# Integer
+
+---
+
+# Integer
+
+A whole number
+
+```python
+age = 17
+days_in_january = 31
+bottles_sitting_on_the_wall = 99
+```
+
+----
+
+# Float
+
+----
+
+# Float
+
+A decimal number
+
+```python
+price = 12.99
+percent = 34.57
+pi = 3.1415
 ```
 
 ---
@@ -93,6 +187,8 @@ has_paid = False # Boolean
 | - | Subtraction | `3 - 1` |
 | * | Multiplication | `3 * 7` |
 | / | Division | `9 / 3` |
+| ** | Exponent | `4 ** 2` |
+| % | Modulus (remainder) | `10 % 3` |
 
 ---
 
@@ -103,7 +199,23 @@ print(1 + 2)
 print(5 - 3)
 print(3 * 7)
 print(49 / 7)
+print(4 ** 2)
+print(10 % 3)
 ```
+
+--- 
+
+# Numerical Operators
+
+```python
+x = 3
+y = 6
+area = x * y
+```
+
+---
+
+# Link 3 - Numerical Operators
 
 ---
 
@@ -114,13 +226,17 @@ print(49 / 7)
 # Concatenation
 
 ```python
-first_name = "Bill"
-last_name = "Michael"
+first_name = "Lisa"
+last_name = "Henegan"
 full_name = first_name + " " + last_name
 
-print("G'day " + first_name)
-print("How ya goin', " + full_name)
+print("Hello " + first_name)
+print("Good morning, " + full_name)
 ```
+
+---
+
+# Link 4 - Concatenation
 
 ---
 
@@ -138,16 +254,11 @@ print("Hello " + name)
 
 ---
 
-# Code with Us: 2
-
-```python
-user_choice = input("What is your move? (rock, paper, scissors) ")
-print("You picked " + user_choice)
-```
+# Link 5 - Input
 
 ---
 
-# Putting it all together
+# Putting it all together 2
 
 ```python
 print("Welcome to Rock, Paper, Scissors")
@@ -158,15 +269,11 @@ print("You picked " + user_choice)
 
 ---
 
-# Question 2 & 3 
+# Link 6 - Rock, Paper, Scissor Input 
 
 ---
 
 # Conditionals
-
----
-
-# If
 
 ---
 
@@ -179,10 +286,6 @@ if 1 == 1:
 if 3 == 5:
     print("This is never shown")    
 ```
-
----
-
-# Indenting
 
 ---
 
@@ -212,10 +315,6 @@ if name == "Lisa":
 
 # Else
 
----
-
-# Else
-
 ```python
 if 1 == 1:
     print("Yes")
@@ -238,7 +337,7 @@ else:
 
 ---
 
-# Elif
+# Link 7 - If/Else
 
 ---
 
@@ -257,20 +356,7 @@ else:
 
 ---
 
-# Code with Us: 3
-
-```python
-if user_choice == "rock":
-    print("You picked rock")
-elif user_choice == "paper":
-    print("You picked paper")
-else:
-    print("You picked scissors")
-```
-
----
-
-# Putting it all together
+# Putting it all together 3
 
 ```python
 print("Welcome to Rock, Paper, Scissors")
@@ -288,7 +374,7 @@ else:
 
 ---
 
-# Question 4 & 5  
+# Link 8 - Rock, Paper, Scissors Conditionals
 
 ---
 
@@ -310,7 +396,9 @@ print(random.choice(["Alia", "Bill", "Catherine", "Dharmesh", "Eve"]))
 
 ---
 
-# Code with Us: 4
+# Link 9 - Random Module
+
+---
 
 ```python
 import random
@@ -321,7 +409,11 @@ print("The computer picked " + computer_choice)
 
 ---
 
-# Putting it all together
+# Link 10 - Rock, Paper, Scissors Random Module
+
+---
+
+# Putting it all together 4 
 
 ```python
 import random
@@ -344,11 +436,11 @@ else:
 
 ---
 
-# Question 6 & 7  
+# Playing the game 
 
 ---
 
-# Code with Us: 5
+# Playing the game
 ```python
 if user_choice == "rock":
     if computer_choice == "scissors":
@@ -357,24 +449,16 @@ if user_choice == "rock":
         print("You Lose")
     else:
         print("It's a draw")
+elif user_choice == "paper":
+    print("You picked paper")
+else:
+    print("You picked scissors")
+    
 ```
 
 ---
 
-# [fit] Want to learn more?
-
----
-
-# [fit] Take the full course today
-- It's free!
-- 10 sessions
-- Watch on YouTube in your own time
-- Learn to make more games
-- Get a KPMG certificate of completion
-
----
-
-# Putting it all together
+# Putting it all together 5
 
 ---
 
@@ -411,9 +495,23 @@ else:
     else:
         print("It's a draw")
 ```
+
 ---
 
-# Question 8 
+# Link 11 - Rock, Paper, Scissors Full Game
+
+---
+
+# [fit] Want to learn more?
+
+---
+
+# [fit] Take the full course today
+- It's free!
+- 10 sessions
+- Watch on YouTube in your own time
+- Learn to make more games
+- Get a KPMG certificate of completion
 
 ---
 
